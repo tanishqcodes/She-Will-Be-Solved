@@ -1,0 +1,60 @@
+body{
+    background-image: url("./img/light-465350_1920.jpg");
+}
+#header{
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: rgb(248, 223, 223);
+    /* text-align: center; */
+    display: inline-block;
+}
+#container{
+    border: 2px solid  white;
+    background-color: #eadefe;
+    border-radius: 5px;
+    box-shadow:1px 1px 6px 10px #888888;
+    height: 520px;
+    width: 320px;
+    margin-left: 220px;
+}
+#result{
+    width: 100%;
+    height: 103px;
+    text-align: right;
+}
+#appear{
+    /* width: 100%; */
+    padding-left: 20px;
+    border-top: 1px solid rgb(206, 202, 202);
+    height: 50px;
+    text-align: right;
+}
+#numbers{
+    
+    width: 313px;
+    height:366px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 2px;
+    column-gap:2px ;
+}
+#numbers div{
+    border: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+}
+#equal{
+    grid-row: 4/6;
+    grid-column: 4/5;
+}
+#dot{
+    grid-column: 2/4;
+}
+#clear,#divide,#prod,#back,#plus,#minus,#equal{
+    background-color:gray; 
+    color: ivory;
+}
+
